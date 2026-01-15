@@ -18,6 +18,7 @@ To set up the payload, do the following:
  2. Paste your Webhook URL in `script.txt` at `<Your Webhook goes here>`
  3. Upload `script.txt` to [Pastebin.com](pastebin.com) > Copy the <b>RAW</b> URL
  4. Open `TreeOfLife.ino` > Paste your Pastebin URL at `<Your pastebin goes here>`
+ 5. Upload `TreeOfLife.ino` to DigiSpark Attiny85. Done!
 
 > [!TIP]
 > When uploading to Pastebin, use these settings to cover your tracks:\
