@@ -1,9 +1,9 @@
 ## REQUIREMENTS:
 
 You will need 3 <b>ressources</b> for this Payload:
- 1. The TreeOfLife Arduino Code
- 2. TreeOfLife external script hosted on web (e.g: pastebin, github)
- 3. A Webhook
+ 1. The `TreeOfLife` Arduino Code
+ 2. `script.txt` hosted on web (e.g: pastebin, github)
+ 3. A Webhook (webhook.com or equivalent)
 
 Additionally, you'll need the following <b>conditions</b>:
  1. Physical access to target device
