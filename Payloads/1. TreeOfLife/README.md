@@ -1,9 +1,9 @@
 ## REQUIREMENTS:
 
 You will need 3 <b>ressources</b> for this Payload:
- 1. The TreeOfLife Arduino Code
- 2. TreeOfLife external script hosted on web (e.g: pastebin, github)
- 3. A Webhook
+ 1. The `TreeOfLife` Arduino Code
+ 2. `script.txt` hosted on web (e.g: pastebin, github)
+ 3. A Webhook (webhook.com or equivalent)
 
 Additionally, you'll need the following <b>conditions</b>:
  1. Physical access to target device
@@ -18,6 +18,7 @@ To set up the payload, do the following:
  2. Paste your Webhook URL in `script.txt` at `<Your Webhook goes here>`
  3. Upload `script.txt` to [Pastebin.com](pastebin.com) > Copy the <b>RAW</b> URL
  4. Open `TreeOfLife.ino` > Paste your Pastebin URL at `<Your pastebin goes here>`
+ 5. Upload `TreeOfLife.ino` to DigiSpark Attiny85. Done!
 
 > [!TIP]
 > When uploading to Pastebin, use these settings to cover your tracks:\
